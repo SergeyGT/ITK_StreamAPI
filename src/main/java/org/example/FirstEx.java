@@ -1,15 +1,15 @@
 package org.example;
 
+import org.example.Data.Order;
+
 import java.util.*;
-import java.util.DoubleSummaryStatistics;
 import java.util.List;
 import java.util.Map;
-import java.util.stream.Collector;
 import java.util.stream.Collectors;
 
 //TIP To <b>Run</b> code, press <shortcut actionId="Run"/> or
 // click the <icon src="AllIcons.Actions.Execute"/> icon in the gutter.
-public class Main {
+public class FirstEx {
     public static void main(String[] args) {
         List<Order> orders = List.of(
                 new Order("Laptop", 1200.0),

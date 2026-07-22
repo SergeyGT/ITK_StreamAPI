@@ -1,6 +1,4 @@
-package org.example;
-
-import java.util.List;
+package org.example.Data;
 
 public class Order {
     private String product;
